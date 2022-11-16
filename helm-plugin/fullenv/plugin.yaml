@@ -1,0 +1,12 @@
+name: fullenv
+usage: "show env vars"
+description: "show all env vars"
+command: "$HELM_PLUGIN_DIR/run.sh"
+ignoreFlags: true
+platformCommand:
+  - os: linux
+    arch: i386
+    command: "$HELM_PLUGIN_DIR/run.sh"
+  - os: linux
+    arch: amd64
+    command: "$HELM_PLUGIN_DIR/run.sh"

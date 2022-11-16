@@ -1,0 +1,3 @@
+helm plugin install .
+helm plugin list
+helm plugin uninstall fullenv
